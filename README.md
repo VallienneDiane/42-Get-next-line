@@ -23,13 +23,3 @@ int main(void)
  ```
  
 ps : ne pas oublier d'ajouter la librairie de printf ``` #include <stdio.h> ```
-
-
-| Function name            | get_next_line                                           |
-| ------------------------ | :-----------------------------------------------------: |
-| Prototype                | char *get_next_line(int fd)                             |
-| Turn in files            | get_next_line.c, get_next_line_utils.c, get_next_line.h |
-| Parameters               | File descriptor to read from                            |
-| Return value             | Read line:  correct behavior                            |
-|                          | NULL: nothing else to read or an error occurred         |
-| External functs.         | read, malloc, free                                      |
